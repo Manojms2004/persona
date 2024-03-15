@@ -1,0 +1,719 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans' ,sans-serif;
+}
+/* .outerdiv
+{
+    position: fixed;
+} */
+.navclass
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    height: 2.4cm;
+    width: 100%;
+
+}
+.navclass ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+.navclass ul{
+    margin-left:9cm;
+}
+.navclass h1{
+    font-size: 30px;
+}
+#dut1
+{
+    width:3.2cm;
+    height:1cm;
+    border-radius: 17px;
+    background-color: #00b4d8;
+    border: #00b4d8;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    right:-35px;
+}
+#dut1:hover
+{
+    transform: scale(1.06);
+}
+.navclass ul li a{
+    text-decoration: none;
+    color: black;
+}
+span
+{
+    color: #00b4d8;
+}
+.navclass ul li a:hover{
+   color:#00b4d8;
+   transition: 0.2s;
+   border-bottom:3px solid #00b4d8;
+   
+}
+#textdiv
+{
+   height:9cm;
+   width: 50%;
+   border: 2px solid white;
+   
+}
+#imagediv
+{
+    height:9cm;
+    width: 50%;
+    border: 2px solid white;
+    /*home outer div background-color: red; */
+}
+.homeouter
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top:6cm;
+}
+#textdiv h1{
+    position: relative;
+    left:4.3cm;
+    font-size: 36px;
+    font-weight: 700;
+}
+#textdiv h3{
+    position: relative;
+    left: 4.3cm;
+    top:0.5cm;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(85, 84, 84);
+    font-size:21px;
+}
+#textdiv button
+{
+    width:3.5cm;
+    height:1.2cm;
+    border-radius: 19px;
+    border:2px solid #00b4d8;
+    color:#00b4d8;
+    font-weight:10px;
+    background-color: white;
+    position: relative;
+    top:2cm;
+    left:4.2cm;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#textdiv button:hover
+{
+    background-color: #00b4d8;
+    color: aliceblue;
+    transform: scale(1.06);
+}
+#imagediv img{
+    position: relative;
+    top:-2.7cm;
+    right: -35px;
+}
+.clogoimagesdiv img
+{
+   height:1.3cm;
+   width:2.9cm;
+   position: relative;
+   top:0.4cm;
+}
+.clogoimagesdiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:7.8cm;
+    height:2.3cm;
+    background-color: #dbe5f5;
+    width: 100%;
+}
+.about_us
+{
+    position: relative;
+    top:11cm;
+    display: flex;
+    justify-content: center;
+}
+.abside
+{
+    height:2px;
+    background-color:#00b4d8;
+    width:1.1cm;
+    position: relative;
+    top:0.4cm;
+    
+}
+#a1{
+    left:-0.59cm;
+}
+#a2{
+    right:-0.59cm;
+}
+.aboutext{
+    display: flex;
+
+}
+.about_outer_div
+{
+    position: relative;
+    top:1.3cm;
+}
+.text{
+ 
+  width:50%;
+  position: relative;
+  top:11.8cm;
+  left:10px;
+  
+}
+.text p{
+    letter-spacing: 2px;
+    font-size:medium;
+    line-height: 22px;
+    position: relative;
+    left:20px;
+}
+.text ol li{
+    position: relative;
+    left:35px;
+}
+#rightext button
+{
+    width:3.5cm;
+    height:1.2cm;
+    border-radius: 10px;
+    border:2px solid #00b4d8;
+    color:#00b4d8;
+    font-weight:10px;
+    background-color: white;
+    position: relative;
+    top:2.5cm;
+    left:15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.imgabout img
+{
+    position: relative;
+    top:12.3cm;
+    height: 8cm;
+    left:150px;
+    
+}
+.aboutimgandcards
+{
+    display: flex;
+}
+.aboutcards
+{
+    height:8cm;
+    width:25cm;
+    position: relative;
+    top:13cm;
+    left:7cm;
+}
+.innercard1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards
+{
+    width: 10cm;
+    height: 4cm;
+    border-radius: 20px;
+}
+.cards:hover{
+    box-shadow: 0px 0px 2px white;
+    transform: scale(1.01);
+}
+#icons
+{
+    position: relative;
+    top:0.3cm;
+}
+.innercard2
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+.sp
+{
+    position: relative;
+    left:10px;
+    color: black;
+    font-weight: 700;
+
+}
+.cards p{
+    position: relative;
+    top:1cm;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.service
+{
+    position: relative;
+    top:15cm;
+    display: flex;
+    justify-content: center;
+}
+.ser_side
+{
+    height:2px;
+    background-color:#00b4d8;
+    width:1.1cm;
+    position: relative;
+    top:0.4cm;
+    
+}
+#s1{
+    left:-0.59cm;
+}
+#s2{
+    right:-0.59cm;
+}
+.servicebelowt p
+{
+    position: relative;
+    text-align: center;
+    top:15.5cm;
+}
+.service-div-cards-outer
+{
+
+    height: 6cm;
+    width: 90%;
+    position: relative;
+    top:17cm;
+    left:2cm;
+    display: flex;
+    justify-content: space-around;
+}
+.cards-ser-in
+{
+    height:6cm;
+    width:6.3cm;
+    background-color: white;
+    box-shadow: inset 0px 0px 2px white,1px 1px 0px black,5px 5px 5px black;
+    border-radius: 10px;
+}
+.cards-ani-back
+{
+    height: 2.5cm;
+    width:2.5cm;
+    border-top-left-radius:7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 80px;
+    background-color: #90dae9;
+}
+.cards-ser-in p
+{
+    color: white;
+    position: relative;
+    left:20px;
+    top:3cm;
+    animation: point; 
+}
+.cards-ani-back:hover
+{
+    height:6cm;
+    width:6.3cm;
+    transition: 0.5s;
+    background-color: #00b4d8;
+    border-bottom-right-radius: 7px;
+}
+#jumpget
+{
+    position: relative;
+    top:2cm;
+}
+.cards-ani-back p
+{
+    color:black;
+    position: relative;
+    top:1cm;
+}
+.icon-1
+{
+    background-color: black;
+    height: 2cm;
+    width:2cm;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:10px;
+    left:20px;
+
+
+}
+.para:hover{
+    color: white;
+}
+.icon-1 i{
+    position: relative;
+    top:35px;
+}
+.big-outer-1
+{
+    height: 10cm;
+    width: 90%;
+    position: relative;
+    top:20cm;
+    left:3cm;
+    display: flex;
+    justify-content: space-between;
+}
+.big-ser-div-4
+{
+    height: 9cm;
+    width: 50%;
+}
+.big-ser-div-4 img
+{
+    height:8.5cm;
+    width:85%;
+    border-radius: 10px;
+}
+#big1
+{
+    position: relative;
+    left: 1.5cm;
+}
+#big_0
+{
+    position: relative;
+    left: 1.5cm;
+}
+.inner-ser-div-4
+{
+    height: 4cm;
+    width: 70%;
+    position: relative;
+    top:-5cm;
+    left:1.5cm;
+    background-color: rgb(229, 233, 236);
+    border-radius: 10px;
+    text-align: center;
+}
+#servicejump
+{
+    position: relative;
+    top:11.5cm;
+}
+.inner-ser-div-4 h2
+{
+    position: relative;
+    top:0.4cm;
+}
+.inner-ser-div-4:hover{
+    background-color: #00b4d8;
+    color: white;
+}
+
+.portfolio
+{
+    position: relative;
+    top:20cm;
+    display: flex;
+    justify-content: center;
+}
+.por_side
+{
+    height:2px;
+    background-color:#00b4d8;
+    width:1.1cm;
+    position: relative;
+    top:0.4cm;
+    
+}
+#p1{
+    left:-0.59cm;
+}
+#p2{
+    right:-0.59cm;
+}
+.portfoliobelow p
+{
+    position: relative;
+    text-align: center;
+    top:20.5cm;
+}
+#portfoliojump
+{
+    position: relative;
+    top:16cm;
+}
+.port-cards-div-outer
+{
+    height: 17cm;
+    width: 100%;
+    position: relative;
+    top:21.2cm;
+    
+}
+.two-row-div
+{
+    height: 7cm;
+    width: 80%;
+    position: relative;
+    left:4cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 0.2cm;
+}
+.two-inner-col-div:hover
+{
+    transform: scale(1.03);
+}
+.two-inner-col-div
+{
+    height: 7cm;
+    width:10cm;
+}
+.two-inner-col-div img
+{
+    height: 7cm;
+    width:10cm;
+}
+.team
+{
+    position: relative;
+    top:27cm;
+    display: flex;
+    justify-content: center;
+}
+.team_side
+{
+    height:2px;
+    background-color:#00b4d8;
+    width:1.1cm;
+    position: relative;
+    top:0.4cm;
+    
+}
+#t1{
+    left:-0.40cm;
+}
+#t2{
+    right:-0.40cm;
+}
+.teambelow p
+{
+    position: relative;
+    text-align: center;
+    top:27.5cm;
+}
+#teamjump
+{
+    position: relative;
+    top:21cm;
+}
+.team-cards-outer
+{
+    height: 11cm;
+    width: 88%;
+    position: relative;
+    left: 2cm;
+    top:29cm;
+    display: flex;
+    justify-content: space-evenly;
+}
+.emp-cards-4
+{
+    height: 11cm;
+    width:7.8cm;
+    border-radius: 8px;
+    background-color: #dbe5f5;
+    box-shadow: 3px 3px 5px black;
+}
+.textdiv
+{
+    height: 3cm;
+    width:7.90cm;
+    position: relative;
+    background-color: white;
+    top:-5px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+.textdiv h3{
+    position: relative;
+    top: 1.5em;
+}
+.emp-cards-4 img
+{
+    height: 8cm;
+    width:7.9cm;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.textdiv h5{
+    color: rgb(111, 108, 108);
+    position: relative;
+    top:2.3rem;
+    letter-spacing: 1px;
+}
+.contact
+{
+    position: relative;
+    top:31cm;
+    display: flex;
+    justify-content: center;
+}
+.contact_side
+{
+    height:2px;
+    background-color:#00b4d8;
+    width:1.1cm;
+    position: relative;
+    top:0.4cm;
+    
+}
+#c1{
+    left:-0.40cm;
+}
+#c2{
+    right:-0.40cm;
+}
+#contactjump
+{
+    position: relative;
+    top:30cm;
+}
+.contact-outer-container
+{
+    height: 10cm;
+    width:100%;
+    position: relative;
+    top:32cm;
+    display: flex;
+}
+.contact-and-logins
+{
+    height: 10cm;
+    width: 50%;
+}
+.contact-and-logins h2{
+    position: relative;
+    top:1cm;
+    left:3cm;
+}
+.contact-and-logins p
+{
+    position: relative;
+    top:1.6cm;
+    left: 3cm;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+#social-media-icons
+{
+    height: 1.3cm;
+    width:6.8cm;
+    position: relative;
+    top:2.1cm;
+    left: 2.7cm;
+    display: flex;
+}
+.sm-ions
+{
+    height:1.3cm;
+    width: 1.3cm;
+    border: 2px solid #00b4d8;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+}
+.sm-ions i{
+    position: relative;
+    top:0.6cm;
+}
+.sm-ions i:hover{
+    transform: rotateY(360deg);
+}
+.input_
+{
+    height: 1.2cm;
+    width: 14cm;
+    position: relative;
+    left: 1.5cm;
+
+}
+input:hover
+{
+    border:2px solid #00b4d8;
+}
+.form-control
+{
+    height: 3cm;
+    width: 14cm;
+    position: relative;
+    left: 1.5cm;
+}
+.form-control:hover{
+    border:2px solid #00b4d8;
+}
+#lastbut
+{
+    width:3.2cm;
+    height:1cm;
+    border-radius: 17px;
+    background-color: #00b4d8;
+    border: #00b4d8;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    top: 1.3cm;
+    left: -8cm;
+}
+.footer{
+    height: 3cm;
+    width: 100%;
+    background-color: rgb(250, 252, 253);
+    box-shadow: 2px 2px 5px black;
+    position: relative;
+    top:32.3cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.inner-fo
+{
+    position: relative;
+    top: 1cm;
+}
+#spatem
+{
+    text-decoration: none;
+    position: relative;
+    top: -1.2em;
+    left:6em
+}
